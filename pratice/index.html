@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Aspect Ratio</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <!-- Aspect-ratio -->
+
+    <!-- <div class="aspect-square w-40 bg-blue-500">aspect-square</div>
+    <div class="aspect-video w-80 bg-black text-white">aspect-video</div>
+     <img src="photo.jpg" class="aspect-auto w-64" />
+    <div style="--my-ratio: 3 / 2" class="aspect-[var(--my-ratio)] w-60 bg-green-400">aspect-custom-propery</div>
+    <div class="aspect-[4/3] w-64 bg-red-400">aspect-[value>]</div> -->
+
+    <!-- Layout Columns -->
+
+<div class="columns-2 gap-4 sm:columns-3 sm:gap-8 ...">columns-2 gap-4 sm:columns-3 sm:gap-8<img class="Aspect-ratio ..." src="photo1.png" />
+  <!-- ... -->
+
+<div class="columns-3xs ..."> columns-3xs
+        <img class="aspect-auto ..." src="photo2.png" />
+        <!-- <img style="aspect-ratio: 3/2" class="aspect-[-var(--my-ratio)]" src="photo2.png" /> -->
+        <!-- ... -->
+
+    <!-- break before -->
+            <div class="columns-2  bg-red-400 p-4 ..." >
+                <p>Well, let me tell you something, ...</p>
+                <p class="break-after-column">Sure, go ahead, laugh...</p>
+                <p>Maybe we can live without...</p>
+                <p>Look. If you think this is...</p>
+            </div>
+<div class="columns-4  bg-green-400 p-4 ...">
+    <div class="break-inside-avoid-column ...">
+        <h2 class="text-lg font-bold mb-2 ...">Breaking Inside Avoid Column</h2>
+        <p>Here's some content that won't break inside a column...</p>
+</div>
+
+    <!-- break before -->
+     
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
